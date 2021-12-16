@@ -7,7 +7,7 @@ const Cta = () => {
       <Row style={stls.fullwidth}>
         <Column style={stls.column}>
           <div style={stls.fullwidth}>
-            <Link href={'https://moscow.mba'} style={stls.btn}>
+            <Link href={'https://moscow.mba?utm_campaign=emails&utm_term=newyears'} style={stls.btn}>
               <span style={stls.link}>Выбрать программу</span>
             </Link>
           </div>

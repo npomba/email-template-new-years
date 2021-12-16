@@ -18,7 +18,7 @@ const Hello = () => {
             <p style={stls.pNotice} align='center'>
               * от итоговой цены на сайте
             </p>
-            <Link href={'https://ipo.msk.ru'} style={stls.btn}>
+            <Link href={'https://moscow.mba/?utm_campaign=emails&utm_term=newyears'} style={stls.btn}>
               <span style={stls.link}>Получить скидку</span>
             </Link>
           </div>

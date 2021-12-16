@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <Container alignment='center' style={stls.container}>
       <Row>
-        <Link href={'https://moscow.mba/'}>
+        <Link href={'https://moscow.mba/?utm_campaign=emails&utm_term=newyears'}>
           <Column style={stls.column}></Column>
         </Link>
       </Row>
