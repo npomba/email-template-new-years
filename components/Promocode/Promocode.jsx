@@ -7,13 +7,11 @@ const Promocode = () => {
       <Row style={stls.fullwidth}>
         <Column style={stls.fullwidth}>
           <div style={stls.fullwidth}>
-            <p style={stls.title}>По промокоду:</p>
-            <p style={stls.p} align='center'>
-              BLACKFRIDAY
+            <p style={stls.title}>—45%</p>
+            <p style={stls.p}>
+              Действует до <span style={stls.highlight}>5 января</span> на все{' '}
+              <span style={stls.highlight}>online-программы</span> по промокоду
             </p>
-            <Link href={'https://ipo.msk.ru'} style={stls.btn}>
-              <span style={stls.link}>Получить скидку</span>
-            </Link>
           </div>
         </Column>
       </Row>

@@ -5,6 +5,7 @@ import {
   Banner,
   Winner,
   Promocode,
+  Cta,
   FooterLinks
 } from '../components'
 
@@ -18,11 +19,14 @@ const Home = () => {
         }
       }}>
       <EmailWrapper>
-        <HeaderLogo />
-        <Banner />
-        <Winner />
-        <Promocode />
-        <FooterLinks />
+        <div style={{ backgroundColor: '#fff' }}>
+          <HeaderLogo />
+          <Banner />
+          <Winner />
+          <Promocode />
+          <Cta />
+          <FooterLinks />
+        </div>
       </EmailWrapper>
     </PostonentsProvider>
   )
