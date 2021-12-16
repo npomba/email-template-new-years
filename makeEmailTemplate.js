@@ -20,7 +20,7 @@ fs.readFile('./out/index.html', 'utf8', (err, data) => {
       .replace(/(\.jpg\"\))/g, ".jpg')")
       .replace(/(\.png\"\))/g, ".png')")
 
-  fs.writeFile('../template-black-friday.html', content, err => {
+  fs.writeFile('../template-new-years.html', content, err => {
     if (err) {
       console.error(err)
       return

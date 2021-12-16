@@ -1,53 +1,40 @@
 const winnerStyles = {
   container: {
-    marginTop: '-17px'
-  },
-  title: {
-    marginTop: '40px',
-    marginLeft: '40px',
-    fontSize: '24px',
-    fontWeight: 500,
-    lineHeight: '110%',
-    color: '#1A1A1A'
+    marginTop: '-15px'
   },
   column: {
     backgroundImage:
-      "url('https://res.cloudinary.com/mipinstitute/image/upload/v1629973173/temp%20ipo%20email/winner_c3uqcf.jpg')",
+      "url('https://res.cloudinary.com/npomba/image/upload/v1639650080/email-template-new-years/winner_jmtas6.jpg')",
+    backgroundRepeat: 'no-repeat',
     minWidth: '600px',
     width: '600px',
-    height: '332px'
-  },
-  prize: {
-    marginTop: '-10px',
-    marginBottom: '17px',
-    marginLeft: '40px',
-    fontSize: '24px',
-    fontWeight: 500,
-    color: '#3290FF'
-  },
-  subtitle: {
-    marginTop: '-1px',
-    marginBottom: 0,
-    marginLeft: '40px',
-    fontSize: '14px',
-    fontWeight: 500,
-    color: '#000'
+    // minHeight: '215px',
+    paddingTop: '40px',
+    backgroundColor: '#F7F7F7'
   },
   p: {
     marginTop: 0,
-    marginBottom: '10px',
-    marginLeft: '40px',
-    fontSize: '14px',
+    marginBottom: '16px',
+    marginLeft: '32px',
+    fontSize: '9px',
     fontWeight: 500,
-    color: '#3290FF'
+    lineHeight: '108%',
+    color: '#262626'
   },
-  leader: {
-    marginTop: 0,
-    marginBottom: '10px',
-    marginLeft: '40px',
-    fontSize: '14px',
-    fontWeight: 600,
-    color: '#3290FF'
+  pLarge: {
+    width: '100%',
+    maxWidth: '228px',
+    marginTop: '40px',
+    marginLeft: '32px',
+    paddingBottom: '4px',
+    borderBottom: '1px solid #FF3535',
+    fontSize: '12px',
+    fontWeight: 700,
+    lineHeight: '15px',
+    color: '#262626'
+  },
+  strong: {
+    fontWeight: 700
   }
 }
 

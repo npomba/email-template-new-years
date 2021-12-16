@@ -1,6 +1,6 @@
 const bannerStyles = {
   container: {
-    marginTop: '-10px'
+    marginTop: '-5px'
   },
   title: {
     marginTop: '40px',
@@ -12,7 +12,7 @@ const bannerStyles = {
   },
   column: {
     backgroundImage:
-      "url('https://res.cloudinary.com/npoipe/image/upload/v1637747130/email-template-black-friday/banner_wtdztk.jpg')",
+      "url('https://res.cloudinary.com/npomba/image/upload/v1639649137/email-template-new-years/banner_stek86.jpg')",
     minWidth: '600px',
     width: '600px',
     height: '300px'

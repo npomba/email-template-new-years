@@ -1,32 +1,28 @@
 import { PostonentsProvider } from 'postonents'
 import {
   HeaderLogo,
-  Hello,
   EmailWrapper,
-  HeaderLinks,
-  LeaderboardsMonth,
-  LeaderboardsSixMonths,
   Banner,
   Winner,
   Promocode,
-  Prize,
-  FooterContacts,
-  FooterLinks,
-  Footer
+  FooterLinks
 } from '../components'
 
 const Home = () => {
   return (
-    <PostonentsProvider theme={{ typo: { fontFamily: 'Stem, sans-serif' } }}>
+    <PostonentsProvider
+      theme={{
+        typo: {
+          fontFamily:
+            'Styrene A Web, StyreneAWeb, Styrene, Arial, Tahoma, Stem, sans-serif'
+        }
+      }}>
       <EmailWrapper>
         <HeaderLogo />
-        <HeaderLinks />
         <Banner />
-        <Hello />
+        <Winner />
         <Promocode />
-        <FooterContacts />
         <FooterLinks />
-        <Footer />
       </EmailWrapper>
     </PostonentsProvider>
   )
